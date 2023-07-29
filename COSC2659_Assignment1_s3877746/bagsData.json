@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Chanel 19 Large Handbag",
+        "brand": "Chanel",
+        "size": "20 × 30 × 10 cm",
+        "color": "Pastel Yellow",
+        "material": "Shiny Lambskin",
+        "id": 1,
+        "coordinates": {
+            "longitude": 106.6990804,
+            "latitude": 10.7754957
+        },
+        "description": "Crafted with a padded, rectangular silhouette, this beautiful Chanel 19 Flap Bag has been made in France from black lambskin. It is topped with the style’s chunky two-tone metal chain and interwoven CC-logo. Produced in 2020, it arrives in excellent condition with minimal signs of wear inside the bag and tiny scratches on the hardware. In black it's the perfect addition to any outfit and any occasion.",
+        "image_name": "chanel_19"
+    },
+    {
+        "name": "Small Boy Chanel Handbag",
+        "brand": "Chanel",
+        "size": "20.5 x 12 x 8.5 cm",
+        "color": "Black",
+        "material": "Calfskin",
+        "id": 2,
+        "coordinates": {
+            "longitude": 106.6990804,
+            "latitude": 10.7754957
+        },
+        "description": "This small boy flap bag is practical and stylish. This particular bag is the small size of the collection and features a long antique chain-link strap with a leather pad that can be used as a long strap or looped around as a shoulder bag. Lined with fabric, the interior is secured by the brand's signature CC push lock.",
+        "image_name": "chanel_boy"
+    },
+    {
+        "name": "Chanel Classic Handbag",
+        "brand": "Chanel",
+        "size": "15.5 × 25.5 × 6.5 cm",
+        "color": "Cookies & Cream",
+        "material": "Wool Tweed",
+        "id": 3,
+        "coordinates": {
+            "longitude": 106.6990804,
+            "latitude": 10.7754957
+        },
+        "description": "This rare Chanel double flap handbag is made from the brand’s traditional tweed in black and white, inspiring its delightful name. The mixed hardware is gold-tone, silver-tone and ruthenium-finish metal. Now sold out online, the bag comes in perfect condition with its authentication card and original dust bag.",
+        "image_name": "chanel_classic"
+    },
+    {
+        "name": "Le 5 À 7 In Smooth Leather",
+        "brand": "YSL",
+        "size": "23 x 16 x 6,5 cm",
+        "color": "Black",
+        "material": "Calfskin",
+        "id": 4,
+        "coordinates": {
+            "longitude": 106.6604627,
+            "latitude": 10.7767546
+        },
+        "description": "This rare Chanel double flap handbag is made from the brand’s traditional tweed in black and white, inspiring its delightful name. The mixed hardware is gold-tone, silver-tone and ruthenium-finish metal. Now sold out online, the bag comes in perfect condition with its authentication card and original dust bag.",
+        "image_name": "ysl_le5"
+    },
+    {
+        "name": "Calypso In Organza & Lambskin",
+        "brand": "YSL",
+        "size": "26 x 14 x 7 cm",
+        "color": "White Corn & Cream",
+        "material": "Leather & Grosgrain Lining",
+        "id": 5,
+        "coordinates": {
+            "longitude": 106.6604627,
+            "latitude": 10.7767546
+        },
+        "description": "SAINT LAURENT's 'Calypso' bag is made from cloud-like organza that will add texture to neutral outfits. The gold logo plaque at the front matches the chain strap, which is trimmed with leather so it sits comfortably on your shoulder. Inside, you'll find a zipped pocket to house your cardholder.",
+        "image_name": "ysl_calypso"
+    },
+    {
+        "name": "Solferino Small In Box Saint Laurent Leather",
+        "brand": "YSL",
+        "size": "19 x 13 x 5 cm",
+        "color": "Blanc Vintage",
+        "material": "Calfskin & Brass",
+        "id": 6,
+        "coordinates": {
+            "longitude": 106.6604627,
+            "latitude": 10.7767546
+        },
+        "description": "SAINT LAURENT's 'Calypso' bag is made from cloud-like organza that will add texture to neutral outfits. The gold logo plaque at the front matches the chain strap, which is trimmed with leather so it sits comfortably on your shoulder. Inside, you'll find a zipped pocket to house your cardholder.",
+        "image_name": "ysl_solferino"
+    },
+    {
+        "name": "Re-Nylon Re-Edition 2000 Mini-Bag",
+        "brand": "Prada",
+        "size": "17 x 22 x 6 cm",
+        "color": "Citron Yellow",
+        "material": "Fabric",
+        "id": 7,
+        "coordinates": {
+            "latitude": 50.0896722,
+            "longitude": 14.4145998
+        },
+        "description": "A new interpretation of an iconic Prada style, the Re-Edition 2000 mini-bag is made of innovative Re-Nylon, produced from recycled, purified plastic trash collected in the ocean, fishing nets, and textile waste fibers. The accessory with zipper closure and woven tape handle is decorated with the iconic enameled metal triangle logo.",
+        "image_name": "prada_nylon"
+    },
+    {
+        "name": "Cleo Brushed Leather Mini Bag",
+        "brand": "Prada",
+        "size": "17 x 22 x 6 cm",
+        "color": "Black",
+        "material": "Leather",
+        "id": 8,
+        "coordinates": {
+            "latitude": 50.0896722,
+            "longitude": 14.4145998
+        },
+        "description": "A perfect synthesis of classicism and futurism, the Prada Cleo bag reinterprets an iconic design from the brand's archives. Sleek, curved lines emphasized by the particular sloping construction on the bottom and sides give this flap bag sophisticated allure, while the handle with extension makes the accessory functional and allows it to be worn as a shoulder bag or handbag. Brushed leather, a distinctive material of Prada collections, is a modern, chameleonic material that is perfect for always new combinations and contrasts. The enameled triangle logo completes the silhouette.",
+        "image_name": "prada_cleo"
+    },
+    {
+        "name": "Satin mini-bag with crystals",
+        "brand": "Prada",
+        "size": "19.5 x 15.5 x 10 cm",
+        "color": "Crystal",
+        "material": "Fabric",
+        "id": 9,
+        "coordinates": {
+            "latitude": 50.0896722,
+            "longitude": 14.4145998
+        },
+        "description": "A soft silhouette with modern, feminine allure defines this satin bucket bag. The satin accessory with sleek lines is entirely decorated with sparkling crystals for a refined touch. The enameled metal triangle logo in the same color decorates the jeweled bag.",
+        "image_name": "prada_satin"
+    },
+    {
+        "name": "Teen Triomphe Bag",
+        "brand": "Celine",
+        "size": "18.5 x 14 x 8 cm",
+        "color": "Crystal",
+        "material": "Triomphe Canvas & Calfskin",
+        "id": 10,
+        "coordinates": {
+            "latitude": 50.1511296,
+            "longitude": 14.4557193
+        },
+        "description": "A soft silhouette with modern, feminine allure defines this satin bucket bag. The satin accessory with sleek lines is entirely decorated with sparkling crystals for a refined touch. The enameled metal triangle logo in the same color decorates the jeweled bag.",
+        "image_name": "celine_triomphe"
+    }
+]

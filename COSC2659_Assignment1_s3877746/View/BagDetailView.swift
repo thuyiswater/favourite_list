@@ -10,23 +10,23 @@ import SwiftUI
 struct BagDetailView: View {
     var bag: Bag
     
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-
-        var btnBack : some View { Button(action: {
-            self.presentationMode.wrappedValue.dismiss()
-            }) {
-                HStack {
-                Image("go_back_icon") // set image here
-                        .resizable()
-                        .frame(width: 15, height: 15)
-                        .aspectRatio(contentMode: .fit)
-                        .foregroundColor(.white)
-                Text("Back")
-                        .font(.custom("Baskervville-Regular", size: 13))
-                        .foregroundColor(.black)
-                }
-            }
-        }
+//    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+//
+//        var btnBack : some View { Button(action: {
+//            self.presentationMode.wrappedValue.dismiss()
+//            }) {
+//                HStack {
+//                Image("go_back_icon") // set image here
+//                        .resizable()
+//                        .frame(width: 15, height: 15)
+//                        .aspectRatio(contentMode: .fit)
+////                        .foregroundColor(isDarkMode ? .white : .black)
+//                Text("Back")
+//                        .font(.custom("Baskervville-Regular", size: 13))
+//                        .foregroundColor(.black)
+//                }
+//            }
+//        }
     
     var body: some View {
         ScrollView {
@@ -80,13 +80,13 @@ struct BagDetailView: View {
         }
         .navigationTitle(bag.name)
         .navigationBarTitleDisplayMode(.inline)
-        .navigationBarBackButtonHidden(true)
-        .navigationBarItems(leading: btnBack)
+//        .navigationBarBackButtonHidden(true)
+//        .navigationBarItems(leading: btnBack)
     }
 }
 
 struct BagDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        BagDetailView(bag: bags[1])
+        BagDetailView(bag: bags[7])
     }
 }

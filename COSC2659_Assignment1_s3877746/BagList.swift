@@ -8,38 +8,39 @@
 import SwiftUI
 
 struct BagList: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-
-        var btnBack : some View { Button(action: {
-            self.presentationMode.wrappedValue.dismiss()
-            }) {
-                HStack {
-                Image("go_back_icon") // set image here
-                        .resizable()
-                        .frame(width: 15, height: 15)
-                        .aspectRatio(contentMode: .fit)
-                        .foregroundColor(.white)
-                Text("Back")
-                        .font(.custom("Baskervville-Regular", size: 13))
-                        .foregroundColor(.black)
-                }
-            }
-        }
+    @State var isDarkMode = false
     
     var body: some View {
+        NavigationView {
             VStack {
-                Text("   My Favourite 👜")
-                    .font(.custom("NXBaskerville-Bold", size: 22))
+                HStack {
+                    Text("   My Favourite 👜")
+                        .font(.custom("NXBaskerville-Bold", size: 22))
+                    
+                    Image(systemName: isDarkMode ? "moon.fill" : "moon")
+                        .resizable()
+                        .offset(x: 60)
+                        .frame(width: 20, height: 20)
+                       .foregroundColor(isDarkMode ? .white : .black)
+                       .onTapGesture {
+                           isDarkMode.toggle()
+                           if isDarkMode {
+                               UIApplication.shared.windows.first?.overrideUserInterfaceStyle = .dark
+                           } else {
+                               UIApplication.shared.windows.first?.overrideUserInterfaceStyle = .light
+                           }
+                       }
+                }
+               
                 List(bags) { bag in
                     NavigationLink {
                         BagDetailView(bag: bag)
                     } label: {
                         BagRow(bag: bag)
                     }
-                    .navigationBarBackButtonHidden(true)
-                    .navigationBarItems(leading: btnBack)
                 }
             }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

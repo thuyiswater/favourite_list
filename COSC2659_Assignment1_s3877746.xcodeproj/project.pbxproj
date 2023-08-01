@@ -23,6 +23,7 @@
 		43E9AE012A6F1B9C00FD33A5 /* BagList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9AE002A6F1B9C00FD33A5 /* BagList.swift */; };
 		43E9AE052A6FB32E00FD33A5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9AE042A6FB32E00FD33A5 /* CircleImage.swift */; };
 		43E9AE0A2A73BA1C00FD33A5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9AE092A73BA1C00FD33A5 /* MapView.swift */; };
+		43E9AE302A78C34600FD33A5 /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9AE2F2A78C34600FD33A5 /* DarkMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		43E9AE042A6FB32E00FD33A5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		43E9AE062A6FC26700FD33A5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		43E9AE092A73BA1C00FD33A5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		43E9AE2F2A78C34600FD33A5 /* DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				436AB7E22A6A4C72005C68DF /* COSC2659-Assignment1-s3877746-Info.plist */,
 				436AB7CE2A6A4BB1005C68DF /* COSC2659_Assignment1_s3877746App.swift */,
 				436AB7EB2A6EDE38005C68DF /* Bag.swift */,
+				43E9AE2F2A78C34600FD33A5 /* DarkMode.swift */,
 				436AB7EE2A6EFEA0005C68DF /* ModelData.swift */,
 				43E9AE002A6F1B9C00FD33A5 /* BagList.swift */,
 				43E9AE082A737E6800FD33A5 /* View */,
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E9AE302A78C34600FD33A5 /* DarkMode.swift in Sources */,
 				436AB7E82A6E312E005C68DF /* BagDetailView.swift in Sources */,
 				436AB7F12A6EFF4C005C68DF /* BagRow.swift in Sources */,
 				436AB7E42A6A4CE7005C68DF /* AuthorView.swift in Sources */,

@@ -27,19 +27,19 @@ struct BagList: View {
         }
     
     var body: some View {
-        VStack {
-            Text("   My Favourite 👜")
-                .font(.custom("NXBaskerville-Bold", size: 22))
-            List(bags) { bag in
-                NavigationLink {
-                    BagDetailView(bag: bag)
-                } label: {
-                    BagRow(bag: bag)
+            VStack {
+                Text("   My Favourite 👜")
+                    .font(.custom("NXBaskerville-Bold", size: 22))
+                List(bags) { bag in
+                    NavigationLink {
+                        BagDetailView(bag: bag)
+                    } label: {
+                        BagRow(bag: bag)
+                    }
+                    .navigationBarBackButtonHidden(true)
+                    .navigationBarItems(leading: btnBack)
                 }
-                .navigationBarBackButtonHidden(true)
-                .navigationBarItems(leading: btnBack)
             }
-        }
     }
 }
 

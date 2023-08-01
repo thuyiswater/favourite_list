@@ -63,6 +63,18 @@ struct BagDetailView: View {
                     .font(.custom("Poppins-ExtraLight", size: 15))
                 Text("   - Material: \(bag.material)")
                     .font(.custom("Poppins-ExtraLight", size: 15))
+//                Image("chanel_19_1")
+//                    .resizable()
+//                    .scaledToFill()
+//                    .offset(y:15)
+//                Image("chanel_19_2")
+//                    .resizable()
+//                    .scaledToFill()
+//                    .offset(y:15)
+//                Image("chanel_19_3")
+//                    .resizable()
+//                    .scaledToFill()
+//                    .offset(y:15)
             }
             .padding()
         }
@@ -75,6 +87,6 @@ struct BagDetailView: View {
 
 struct BagDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        BagDetailView(bag: bags[9])
+        BagDetailView(bag: bags[1])
     }
 }

@@ -66,7 +66,7 @@ struct WelcomeView: View {
                         .frame(width: 150, height: 50)
                         .background(Color(red: 1.00, green: 0.76, blue: 0.82))
                         .cornerRadius(15)
-                        .padding(.bottom, 50.0)
+//                        .offset(y: -50)
                 }.frame(maxHeight: .infinity, alignment: .bottom)
                 
                 //button of author info

@@ -34,7 +34,7 @@ struct BagDetailView: View {
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage(image: bag.image)
+            CircleImage(image: Image(bag.image_name[0]))
                 .padding(.top, -150)
 
             VStack(alignment: .leading) {
@@ -63,18 +63,16 @@ struct BagDetailView: View {
                     .font(.custom("Poppins-ExtraLight", size: 15))
                 Text("   - Material: \(bag.material)")
                     .font(.custom("Poppins-ExtraLight", size: 15))
-//                Image("chanel_19_1")
-//                    .resizable()
-//                    .scaledToFill()
-//                    .offset(y:15)
-//                Image("chanel_19_2")
-//                    .resizable()
-//                    .scaledToFill()
-//                    .offset(y:15)
-//                Image("chanel_19_3")
-//                    .resizable()
-//                    .scaledToFill()
-//                    .offset(y:15)
+                ScrollView (.horizontal, showsIndicators: false){
+                    HStack {
+                        ForEach (bag.image_name, id: \.self){image in
+                            Image(image)
+                                .resizable()
+                                .frame(width:200, height: 200)
+                                .offset()
+                        }
+                    }
+                }
             }
             .padding()
         }
@@ -87,6 +85,6 @@ struct BagDetailView: View {
 
 struct BagDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        BagDetailView(bag: bags[7])
+        BagDetailView(bag: bags[1])
     }
 }

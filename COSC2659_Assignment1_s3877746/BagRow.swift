@@ -12,7 +12,7 @@ struct BagRow: View {
     
     var body: some View {
         HStack {
-            bag.image
+            Image(bag.image_name[0])
                 .resizable()
                 .frame(width: 65, height: 80)
             Text(bag.name)

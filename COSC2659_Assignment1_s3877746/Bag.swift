@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SwiftUI
 import CoreLocation
 
 struct Bag: Hashable, Codable, Identifiable {
@@ -18,10 +17,8 @@ struct Bag: Hashable, Codable, Identifiable {
     var material: String
     var description: String
     
-    private var image_name: String
-       var image: Image {
-           Image(image_name)
-       }
+    var image_name: Array<String>
+ 
     
     private var coordinates: Coordinates
     var locationCoordinate: CLLocationCoordinate2D {

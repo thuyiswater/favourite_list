@@ -11,7 +11,8 @@
             "latitude": 10.7754957
         },
         "description": "Crafted with a padded, rectangular silhouette, this beautiful Chanel 19 Flap Bag has been made in France from black lambskin. It is topped with the style’s chunky two-tone metal chain and interwoven CC-logo. Produced in 2020, it arrives in excellent condition with minimal signs of wear inside the bag and tiny scratches on the hardware. In black it's the perfect addition to any outfit and any occasion.",
-        "image_name": ["chanel_19", "chanel_19_1", "chanel_19_2", "chanel_19_3"]
+        "image_name": "chanel_19_0",
+        "detail_img": ["chanel_19_1", "chanel_19_2", "chanel_19_3"]
     },
     {
         "name": "Small Boy Chanel Handbag",
@@ -25,21 +26,23 @@
             "latitude": 10.7754957
         },
         "description": "This small boy flap bag is practical and stylish. This particular bag is the small size of the collection and features a long antique chain-link strap with a leather pad that can be used as a long strap or looped around as a shoulder bag. Lined with fabric, the interior is secured by the brand's signature CC push lock.",
-        "image_name": ["chanel_boy_0", "chanel_boy_1", "chanel_boy_2", "chanel_boy_3"]
+        "image_name": "chanel_boy_0",
+        "detail_img": ["chanel_boy_1", "chanel_boy_2", "chanel_boy_3"]
     },
     {
-        "name": "Chanel Classic Handbag",
+        "name": "Classic Handbag",
         "brand": "Chanel",
         "size": "15.5 × 25.5 × 6.5 cm",
-        "color": "Cookies & Cream",
+        "color": "Burgundy",
         "material": "Wool Tweed",
         "id": 3,
         "coordinates": {
             "longitude": 106.6990804,
             "latitude": 10.7754957
         },
-        "description": "This rare Chanel double flap handbag is made from the brand’s traditional tweed in black and white, inspiring its delightful name. The mixed hardware is gold-tone, silver-tone and ruthenium-finish metal. Now sold out online, the bag comes in perfect condition with its authentication card and original dust bag.",
-        "image_name": ["chanel_classic"]
+        "description": " Crafted with the finest burgundy wool tweed and accented with lustrous gold-tone metal, this accessory is a true fashion statement. The deep burgundy hue adds a touch of opulence, while the unique texture of wool tweed creates a perfect balance between classic charm and contemporary style. The gold-tone metal hardware not only enhances the bag's aesthetics but also ensures durability and longevity. With ample space to carry your essentials, this handbag seamlessly elevates your look for any occasion. Make a lasting impression with our Classic Handbag - a perfect fusion of style, quality, and grace.",
+        "image_name": "chanel_classic_0",
+        "detail_img": ["chanel_classic_1", "chanel_classic_2", "chanel_classic_3"]
     },
     {
         "name": "Le 5 À 7 In Smooth Leather",
@@ -53,7 +56,8 @@
             "latitude": 10.7767546
         },
         "description": "This rare Chanel double flap handbag is made from the brand’s traditional tweed in black and white, inspiring its delightful name. The mixed hardware is gold-tone, silver-tone and ruthenium-finish metal. Now sold out online, the bag comes in perfect condition with its authentication card and original dust bag.",
-        "image_name": ["ysl_le5"]
+        "image_name": "ysl_le5_0",
+        "detail_img": ["ysl_le5_1", "ysl_le5_2", "ysl_le5_3"]
     },
     {
         "name": "Calypso In Organza & Lambskin",
@@ -67,7 +71,8 @@
             "latitude": 10.7767546
         },
         "description": "SAINT LAURENT's 'Calypso' bag is made from cloud-like organza that will add texture to neutral outfits. The gold logo plaque at the front matches the chain strap, which is trimmed with leather so it sits comfortably on your shoulder. Inside, you'll find a zipped pocket to house your cardholder.",
-        "image_name": ["ysl_calypso"]
+        "image_name": "ysl_calypso_0",
+        "detail_img": ["ysl_calypso_1", "ysl_calypso_2", "ysl_calypso_3", "ysl_calypso_4"]
     },
     {
         "name": "Solferino Small In Box Saint Laurent Leather",
@@ -80,8 +85,9 @@
             "longitude": 106.6604627,
             "latitude": 10.7767546
         },
-        "description": "SAINT LAURENT's 'Calypso' bag is made from cloud-like organza that will add texture to neutral outfits. The gold logo plaque at the front matches the chain strap, which is trimmed with leather so it sits comfortably on your shoulder. Inside, you'll find a zipped pocket to house your cardholder.",
-        "image_name": ["ysl_solferino"]
+        "description": "Crafted with high-quality leather, this exquisite piece showcases the impeccable craftsmanship of Saint Laurent. The compact size and sleek design make it a versatile companion for any occasion, while the iconic 'YSL' logo adds a touch of timeless charm. Elevate your style with the Solferino Small In Box Saint Laurent Leather - a must-have for fashion enthusiasts and discerning individuals alike.",
+        "image_name": "ysl_solferino_0",
+        "detail_img": ["ysl_solferino_1", "ysl_solferino_2", "ysl_solferino_3", "ysl_solferino_4"]
     },
     {
         "name": "Re-Nylon Re-Edition 2000 Mini-Bag",
@@ -95,7 +101,8 @@
             "longitude": 14.4145998
         },
         "description": "A new interpretation of an iconic Prada style, the Re-Edition 2000 mini-bag is made of innovative Re-Nylon, produced from recycled, purified plastic trash collected in the ocean, fishing nets, and textile waste fibers. The accessory with zipper closure and woven tape handle is decorated with the iconic enameled metal triangle logo.",
-        "image_name": ["prada_nylon"]
+        "image_name": "prada_nylon_0",
+        "detail_img": ["prada_nylon_1", "prada_nylon_2", "prada_nylon_3", "prada_nylon_4", "prada_nylon_5", "prada_nylon_6"]
     },
     {
         "name": "Cleo Brushed Leather Mini Bag",
@@ -109,7 +116,8 @@
             "longitude": 14.4145998
         },
         "description": "A perfect synthesis of classicism and futurism, the Prada Cleo bag reinterprets an iconic design from the brand's archives. Sleek, curved lines emphasized by the particular sloping construction on the bottom and sides give this flap bag sophisticated allure, while the handle with extension makes the accessory functional and allows it to be worn as a shoulder bag or handbag. Brushed leather, a distinctive material of Prada collections, is a modern, chameleonic material that is perfect for always new combinations and contrasts. The enameled triangle logo completes the silhouette.",
-        "image_name": ["prada_cleo"]
+        "image_name": "prada_cleo_0",
+        "detail_img": ["prada_cleo_1", "prada_cleo_2", "prada_cleo_3", "prada_cleo_4", "prada_cleo_5", "prada_cleo_6"]
     },
     {
         "name": "Satin mini-bag with crystals",
@@ -123,13 +131,14 @@
             "longitude": 14.4145998
         },
         "description": "A soft silhouette with modern, feminine allure defines this satin bucket bag. The satin accessory with sleek lines is entirely decorated with sparkling crystals for a refined touch. The enameled metal triangle logo in the same color decorates the jeweled bag.",
-        "image_name": ["prada_satin"]
+        "image_name": "prada_satin_0",
+        "detail_img": ["prada_satin_1", "prada_satin_2", "prada_satin_3", "prada_satin_4", "prada_satin_5"]
     },
     {
         "name": "Teen Triomphe Bag",
         "brand": "Celine",
-        "size": "18.5 x 14 x 8 cm",
-        "color": "Crystal",
+        "size": "22 x 15.5 x 6 cm",
+        "color": "Tan",
         "material": "Triomphe Canvas & Calfskin",
         "id": 10,
         "coordinates": {
@@ -137,6 +146,7 @@
             "longitude": 14.4557193
         },
         "description": "A soft silhouette with modern, feminine allure defines this satin bucket bag. The satin accessory with sleek lines is entirely decorated with sparkling crystals for a refined touch. The enameled metal triangle logo in the same color decorates the jeweled bag.",
-        "image_name": ["celine_triomphe"]
+        "image_name": "celine_trio_0",
+        "detail_img": ["celine_trio_1", "celine_trio_2", "celine_trio_3", "celine_trio_4"]
     }
 ]

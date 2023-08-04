@@ -17,7 +17,9 @@ struct Bag: Hashable, Codable, Identifiable {
     var material: String
     var description: String
     
-    var image_name: Array<String>
+    var image_name: String
+    
+    var detail_img: Array<String>
  
     
     private var coordinates: Coordinates

@@ -12,7 +12,7 @@ struct BagRow: View {
     
     var body: some View {
         HStack {
-            Image(bag.image_name[0])
+            Image(bag.image_name)
                 .resizable()
                 .frame(width: 65, height: 80)
             Text(bag.name)
@@ -26,7 +26,7 @@ struct BagRow: View {
 struct BagRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            BagRow(bag: bags[5])
+            BagRow(bag: bags[0])
         }
     }
 }

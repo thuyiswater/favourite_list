@@ -67,13 +67,14 @@ struct BagDetailView: View {
                     .font(.custom("Poppins-ExtraLight", size: 15))
                 Text("   - Material: \(bag.material)")
                     .font(.custom("Poppins-ExtraLight", size: 15))
+                
                 ScrollView (.horizontal, showsIndicators: false){
                     HStack {
                         ForEach (bag.detail_img, id: \.self){image in
                             Image(image)
                                 .resizable()
-                                .frame(width: 200, height: 250)
-                                
+                                .frame(width: 200, height: 200)
+                                .cornerRadius(17)
                         }
                     }
                 }
@@ -82,8 +83,8 @@ struct BagDetailView: View {
         }
         .navigationTitle(bag.name)
         .navigationBarTitleDisplayMode(.inline)
-//        .navigationBarBackButtonHidden(true)
-//        .navigationBarItems(leading: btnBack)
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: btnBack)
     }
 }
 

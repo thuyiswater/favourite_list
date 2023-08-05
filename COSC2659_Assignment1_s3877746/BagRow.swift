@@ -19,9 +19,11 @@ struct BagRow: View {
         HStack {
             Image(bag.image_name)
                 .resizable()
-                .frame(width: 65, height: 90)
+                .offset(x: 20)
+                .frame(width: 60, height: 77)
             Text(bag.name)
                 .font(.custom("Baskervville-Regular", size: 15))
+                .offset(x: 20)
             
             Spacer()
         }
@@ -31,7 +33,7 @@ struct BagRow: View {
 struct BagRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            BagRow(bag: bags[0])
+            BagRow(bag: bags[5])
         }
     }
 }

@@ -86,10 +86,7 @@
 				43E9AE042A6FB32E00FD33A5 /* CircleImage.swift */,
 				436AB7F02A6EFF4C005C68DF /* BagRow.swift */,
 				43E9ADFC2A6F077A00FD33A5 /* bagsData.json */,
-				436AB7DE2A6A4C10005C68DF /* Baskervville-Regular.ttf */,
-				436AB7DD2A6A4C10005C68DF /* NXBaskerville-Bold.otf */,
-				436AB7DC2A6A4C10005C68DF /* Poppins-ExtraLight.ttf */,
-				43E9AE062A6FC26700FD33A5 /* Poppins-Regular.ttf */,
+				437E361B2A7E15E400F3FF12 /* Fonts */,
 				436AB7D22A6A4BB1005C68DF /* Assets.xcassets */,
 				436AB7D42A6A4BB1005C68DF /* Preview Content */,
 			);
@@ -102,6 +99,17 @@
 				436AB7D52A6A4BB1005C68DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		437E361B2A7E15E400F3FF12 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				436AB7DE2A6A4C10005C68DF /* Baskervville-Regular.ttf */,
+				436AB7DD2A6A4C10005C68DF /* NXBaskerville-Bold.otf */,
+				436AB7DC2A6A4C10005C68DF /* Poppins-ExtraLight.ttf */,
+				43E9AE062A6FC26700FD33A5 /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		43E9AE082A737E6800FD33A5 /* View */ = {

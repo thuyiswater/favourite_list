@@ -32,7 +32,7 @@ struct WelcomeView: View {
                     Text("CLASSY BABY")
                         .font(.custom("NXBaskerville-Bold", size: 30))
                         .multilineTextAlignment(.center)
-                        .padding(.bottom, 13.0)
+                        .padding(.bottom, 7.0)
                         .overlay {
                             LinearGradient(
                                 colors: [.pink, .yellow],
@@ -73,7 +73,6 @@ struct WelcomeView: View {
                         .frame(width: 150, height: 50)
                         .background(Color(red: 1.00, green: 0.76, blue: 0.82))
                         .cornerRadius(15)
-                    //                        .offset(y: -50)
                 }.frame(maxHeight: .infinity, alignment: .bottom)
                 
                 //button of author info

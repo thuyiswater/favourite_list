@@ -1,32 +1,36 @@
-//
-//  BagDetailView.swift
-//  COSC2659_Assignment1_s3877746
-//
-//  Created by mai chieu thuy on 24/07/2023.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Mai Chieu Thuy
+  ID: s3877746
+  Created  date: 24/07/2023
+  Last modified: 05/08/2023
+  Acknowledgement: Acknowledge the resources that you use here.
+*/
 
 import SwiftUI
 
 struct BagDetailView: View {
     var bag: Bag
     
-//    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-//
-//        var btnBack : some View { Button(action: {
-//            self.presentationMode.wrappedValue.dismiss()
-//            }) {
-//                HStack {
-//                Image("go_back_icon") // set image here
-//                        .resizable()
-//                        .frame(width: 15, height: 15)
-//                        .aspectRatio(contentMode: .fit)
-////                        .foregroundColor(isDarkMode ? .white : .black)
-//                Text("Back")
-//                        .font(.custom("Baskervville-Regular", size: 13))
-//                        .foregroundColor(.black)
-//                }
-//            }
-//        }
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+
+        var btnBack : some View { Button(action: {
+            self.presentationMode.wrappedValue.dismiss()
+            }) {
+                HStack {
+                Image("go_back_icon") // set image here
+                        .resizable()
+                        .frame(width: 15, height: 15)
+                        .aspectRatio(contentMode: .fit)
+                Text("Back")
+                        .font(.custom("Baskervville-Regular", size: 13))
+                        .foregroundColor(.black)
+                }
+            }
+        }
     
     var body: some View {
         ScrollView {
@@ -85,6 +89,6 @@ struct BagDetailView: View {
 
 struct BagDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        BagDetailView(bag: bags[8])
+        BagDetailView(bag: bags[9])
     }
 }

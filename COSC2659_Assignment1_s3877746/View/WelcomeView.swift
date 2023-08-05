@@ -1,14 +1,21 @@
-//
-//  ContentView.swift
-//  COSC2659_Assignment1_s3877746
-//
-//  Created by mai chieu thuy on 18/07/2023.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Mai Chieu Thuy
+  ID: s3877746
+  Created  date: 18/07/2023
+  Last modified: 05/08/2023
+  Acknowledgement: Acknowledge the resources that you use here.
+*/
 
 import SwiftUI
 import UIKit
 
 struct WelcomeView: View {
+    @State private var showingSheet = false
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -21,37 +28,37 @@ struct WelcomeView: View {
                         .frame(width: 300, height: 300)
                         .foregroundColor(.accentColor)
                         .padding(.bottom, 12.0)
-                        
-                   Text("CLASSY BABY")
-                       .font(.custom("NXBaskerville-Bold", size: 30))
-                       .multilineTextAlignment(.center)
-                       .padding(.bottom, 13.0)
-                       .overlay {
-                           LinearGradient(
+                    
+                    Text("CLASSY BABY")
+                        .font(.custom("NXBaskerville-Bold", size: 30))
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom, 13.0)
+                        .overlay {
+                            LinearGradient(
                                 colors: [.pink, .yellow],
                                 startPoint: .leading,
                                 endPoint: .trailing
-                           )
-                           .mask(
-                            Text("CLASSY BABY")
-                                .font(.custom("NXBaskerville-Bold", size: 30))
-                                .multilineTextAlignment(.center)
-                                .padding(.bottom, 7.0)
-                           )
+                            )
+                            .mask(
+                                Text("CLASSY BABY")
+                                    .font(.custom("NXBaskerville-Bold", size: 30))
+                                    .multilineTextAlignment(.center)
+                                    .padding(.bottom, 7.0)
+                            )
                         }
                     Text("A girl should be two things: Classy & Fabulous")
                         .font(.custom("Baskervville-Regular", size: 17))
                         .multilineTextAlignment(.center)
                         .overlay {
                             LinearGradient(
-                                 colors: [.pink, .yellow],
-                                 startPoint: .leading,
-                                 endPoint: .trailing
+                                colors: [.pink, .yellow],
+                                startPoint: .leading,
+                                endPoint: .trailing
                             )
                             .mask(
-                             Text("A girl should be two things: Classy & Fabulous")
-                                 .font(.custom("Baskervville-Regular", size: 17))
-                                 .multilineTextAlignment(.center)
+                                Text("A girl should be two things: Classy & Fabulous")
+                                    .font(.custom("Baskervville-Regular", size: 17))
+                                    .multilineTextAlignment(.center)
                             )
                         }
                 }
@@ -66,7 +73,7 @@ struct WelcomeView: View {
                         .frame(width: 150, height: 50)
                         .background(Color(red: 1.00, green: 0.76, blue: 0.82))
                         .cornerRadius(15)
-//                        .offset(y: -50)
+                    //                        .offset(y: -50)
                 }.frame(maxHeight: .infinity, alignment: .bottom)
                 
                 //button of author info
@@ -74,13 +81,17 @@ struct WelcomeView: View {
                     Spacer()
                     HStack {
                         Spacer()
-                        NavigationLink{
-                            AuthorView()
-                        }label: {
+                        Button{
+                            showingSheet.toggle()
+                        } label: {
                             Image("info_icon")
                                 .resizable()
                                 .frame(width: 30, height: 30)
                                 .padding(.trailing, 18.0)
+                        }
+                        .sheet(isPresented: $showingSheet) {
+                            AuthorView()
+                                .presentationDetents([.medium, .large])
                         }
                     }
                 }
@@ -88,9 +99,10 @@ struct WelcomeView: View {
         }
     }
 }
-
+    
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
         WelcomeView()
     }
 }
+

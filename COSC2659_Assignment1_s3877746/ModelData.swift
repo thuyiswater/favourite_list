@@ -1,9 +1,14 @@
-//
-//  ModelData.swift
-//  COSC2659_Assignment1_s3877746
-//
-//  Created by mai chieu thuy on 25/07/2023.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Mai Chieu Thuy
+  ID: s3877746
+  Created  date: 25/07/2023
+  Last modified: 05/08/2023
+  Acknowledgement: Acknowledge the resources that you use here.
+*/
 
 import Foundation
 
